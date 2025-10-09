@@ -63,21 +63,24 @@ body {
     background: rgba(0,0,0,.6);
     z-index: 1;
 }
-.no-letter-spacing {
+.letter-spacing-extended {
+    letter-spacing: 30px;
+  }
+  .no-letter-spacing {
     letter-spacing: 0;
-}
+  }
 .cover__title {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0 0 135px;
+    margin: 0 0 118px;
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 30px;
     position: relative;
     z-index: 2;
-}
+  }
 .aligned-text {
     text-align: left;
 }
@@ -91,10 +94,10 @@ body {
     position: relative;
     z-index: 2;
     display: flex;
-    justify-content: flex-end;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
     gap: 78px;
-}
+  }
 .cover__description-text {
     margin: 0;
     font: 400 22px/28px Raleway, sans-serif;
