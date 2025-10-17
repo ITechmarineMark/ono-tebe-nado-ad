@@ -46,7 +46,6 @@
     background: center/cover no-repeat url("../images/cover.jpg");
     color: #fff;
     height: 757px;
-    margin-bottom: 180px;
 }
 .overlay {
     position: absolute;
@@ -106,7 +105,8 @@
 
 /* Лоты */
 .lots {
-    padding: 74px 24px 40px;
+    padding: 0 24px 40px;
+    margin-top: 180px;
 }
 .lots__heading {
     margin: 0 0 27px 40px;
