@@ -184,6 +184,7 @@
     padding: 35px 24px 40px;
     height: 595px;
     margin-bottom: 160px;
+    margin-top: 120px;
 }
 .about__logo {
     width: 240px;
@@ -219,6 +220,7 @@
     padding: 90px 50px;
     height: 180px;
     margin-top: 0;
+    margin-bottom: 98px;
   }
 .footer__menu {
     justify-self: center;
